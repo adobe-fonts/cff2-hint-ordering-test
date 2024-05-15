@@ -31,7 +31,9 @@ the ordering of the stems when rasterizing (e.g. doing a binary search for
 matching stems rather than a linear scan).  Any such rasterizer already complies
 with the proposed change to the specification.
 
-This branch of the repository contains the original sources for the font.
+This branch of the repository contains the original sources for the font.  Note
+that these sources require a case-sensitive filesystem, which is not true of
+Mac OS or Windows by default.
 
 It can be built by running:
 
