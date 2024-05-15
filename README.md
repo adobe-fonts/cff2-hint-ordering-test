@@ -31,7 +31,9 @@ the ordering of the stems when rasterizing (e.g. doing a binary search for
 matching stems rather than a linear scan).  Any such rasterizer already complies
 with the proposed change to the specification.
 
-The font itself can be built by running:
+This branch of the repository contains the original sources for the font.
+
+It can be built by running:
 
 `python ./buildVFs.py --hinted`
 
@@ -60,7 +62,7 @@ the creation of the font using ttx:
 
 ```
 
-I have created this repository mostly as a record. I do not expect this font
+I have created this branch mostly as a record; I do not expect this font
 will need to be built again.  The `composition_files` directory contains the 
 (very hacky) scripts and files used to build the UFO directories, starting with
 the Roman Source-Serif UFO sources.  They may be of some use as references for
